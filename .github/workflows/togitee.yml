@@ -16,3 +16,5 @@ jobs:
             git@gitee.com:linfenliu/JD_tencent_scf.git
           ssh_private_key:
             ${{ secrets.GITEE_KEY }}
+          source_branch: "main"
+          destination_branch: "main"
